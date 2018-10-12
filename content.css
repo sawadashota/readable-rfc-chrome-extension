@@ -1,0 +1,133 @@
+.h1 .hBookmark-widget-counter {
+  display: none !important;
+}
+
+html body {
+  font-size: 16px;
+  line-height: 1.5;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+}
+
+html,
+body,
+body .pre,
+body pre,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body .h1,
+body .h2,
+body .h3,
+body .h4,
+body .h5,
+body .h6 {
+  font-family: 'Space Mono', monospace;
+}
+
+body pre {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: .2px;
+}
+
+body a {
+  color: #2F80ED;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+body div.content {
+  margin: 0 auto;
+  width: 758px;
+}
+
+body .content > div > .docinfo {
+  width: 758px;
+}
+
+body .content > .docinfo {
+  width: 710px;
+  display: inline-block;
+  background-color: #F2F2F2;
+  padding: 6px 24px;
+  line-height: 1.5;
+}
+
+.content .pre.docinfo {
+  text-align: right;
+}
+
+.content .pre.docinfo.top {
+  background-color: #F2F2F2;
+  text-align: left;
+  padding-top: 24px;
+  font-size: .85em;
+}
+
+.content .pre.docinfo:nth-child(8) {
+  padding-bottom: 24px;
+}
+
+body div.content > pre {
+  width: 710px;
+  color: #383838;
+  padding: 36px 24px;
+}
+
+body div.content > pre > .h1 {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.newpage .h2 h2 {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+.newpage .h3 h3 {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.Right_Nav {
+  width: 280px;
+  padding: 0;
+  position: relative;
+}
+
+.Right_Nav ul {
+  background-color: #EAF8F0;
+  position: fixed;
+  top: 36px;
+  bottom: 36px;
+  overflow-y: auto;
+  width: 232px;
+  padding: 24px 0;
+  margin: 0;
+}
+
+.Right_Nav ul li {
+  list-style: none;
+  font-size: .8em;
+}
+
+.Right_Nav ul li a {
+  padding: 4px 18px;
+  display: block;
+  color: #4F4F4F;
+}
+
+.Right_Nav ul li a:hover {
+  background-color: #C5ECD5;
+}

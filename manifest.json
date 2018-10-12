@@ -1,0 +1,26 @@
+{
+  "name": "Readable RFC",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Readable styles for RFC",
+  "permissions": ["https://tools.ietf.org/html/rfc*"],
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://tools.ietf.org/html/rfc*"
+      ],
+      "js": [
+        "content-script.js"
+      ],
+      "css": [
+        "content.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "embeded-script.js"
+  ]
+}
