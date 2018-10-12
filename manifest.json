@@ -1,8 +1,7 @@
 {
   "name": "Readable RFC",
-  "short_name": "R RFC",
   "description": "Readable styles for RFC",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "manifest_version": 2,
   "icons": {
     "48": "icon-48.png",

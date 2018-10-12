@@ -7,7 +7,7 @@ Readable styles for RFC
 Installation
 ---
 
-TBC
+https://chrome.google.com/webstore/detail/readable-rfc/efgmkfcbmghckaojgpngicnahbnacndd
 
 LICENSE
 ---

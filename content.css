@@ -72,10 +72,13 @@ body .content > .docinfo {
   text-align: left;
   padding-top: 24px;
   font-size: .85em;
+  border: 0;
+  border-radius: 4px 4px 0 0  / 4px 4px 0 0 ;
 }
 
 .content .pre.docinfo:nth-child(8) {
   padding-bottom: 24px;
+  border-radius: 0 0 4px 4px / 0 0 4px 4px;
 }
 
 body div.content > pre {
@@ -107,6 +110,7 @@ body div.content > pre > .h1 {
 }
 
 .Right_Nav ul {
+  border-radius: 4px;
   background-color: #EAF8F0;
   position: fixed;
   top: 36px;
